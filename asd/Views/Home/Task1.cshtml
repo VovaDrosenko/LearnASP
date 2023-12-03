@@ -1,0 +1,35 @@
+﻿@using asd.DTO_s;
+@model List<GuestDTO1>
+@{
+    int s = 1;
+}
+
+<body>
+    <table class="table table-dark table-hover">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">ID</th>
+                <th scope="col">NAME</th>
+                <th scope="col">COMPANY NAME</th>
+                <th scope="col">ACTION</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var i in Model)
+            {
+                <tr class="hoverable-row">
+                    <td scope="row">@s</td>
+                    <td>@i.ID</td>
+                    <td>@i.Name</td>
+                    <td>@i.CompanyName</td>
+                    <td>
+                        <a class="btn btn-outline-warning" asp-route-id="@i.ID" asp-action="Edit" asp-controller="Guests">Edit</a>
+                        <a class="btn btn-outline-danger" asp-route-id="@i.ID" asp-action="Delete" asp-controller="Guests">Delete</a>
+                    </td>
+                </tr>
+                s++;
+            }
+        </tbody>
+    </table>
+</body>
