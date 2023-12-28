@@ -12,7 +12,7 @@ using asd.Models;
 namespace asd.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20231202171622_init")]
+    [Migration("20231203181606_init")]
     partial class init
     {
         /// <inheritdoc />

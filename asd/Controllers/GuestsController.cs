@@ -113,7 +113,7 @@ namespace asd.Controllers
                 }
             
             ViewData["CompanyID"] = new SelectList(_context.Company, "CompanyID", "CompanyID", guest.CompanyID);
-            return RedirectToAction("Index");
+            return RedirectToAction("GuestsFromExpertSolution", "Home");
         }
 
         // GET: Guests/Delete/5
@@ -151,7 +151,7 @@ namespace asd.Controllers
             }
             
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("GuestsFromExpertSolution", "Home");
         }
 
         private bool GuestExists(int id)

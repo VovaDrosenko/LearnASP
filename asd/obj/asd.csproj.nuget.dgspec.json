@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VoVa_PC\\source\\repos\\asd\\asd\\asd.csproj": {}
+    "C:\\Users\\vovad\\OneDrive\\Рабочий стол\\LearnASP\\asd\\asd.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VoVa_PC\\source\\repos\\asd\\asd\\asd.csproj": {
+    "C:\\Users\\vovad\\OneDrive\\Рабочий стол\\LearnASP\\asd\\asd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VoVa_PC\\source\\repos\\asd\\asd\\asd.csproj",
+        "projectUniqueName": "C:\\Users\\vovad\\OneDrive\\Рабочий стол\\LearnASP\\asd\\asd.csproj",
         "projectName": "asd",
-        "projectPath": "C:\\Users\\VoVa_PC\\source\\repos\\asd\\asd\\asd.csproj",
-        "packagesPath": "C:\\Users\\VoVa_PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VoVa_PC\\source\\repos\\asd\\asd\\obj\\",
+        "projectPath": "C:\\Users\\vovad\\OneDrive\\Рабочий стол\\LearnASP\\asd\\asd.csproj",
+        "packagesPath": "C:\\Users\\vovad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vovad\\OneDrive\\Рабочий стол\\LearnASP\\asd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\VoVa_PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vovad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,10 @@
             "Ardalis.Specification": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Google.Apis.Sheets.v4": {
+              "target": "Package",
+              "version": "[1.64.0.3148, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
